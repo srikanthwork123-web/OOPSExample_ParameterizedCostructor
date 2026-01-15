@@ -11,7 +11,7 @@ namespace OOPSExample_ParameterizedCostructor
     {
         static void Main(string[] args)
         {//For parameterized constructor you must pass the values from object creation time.otherwise it will throw error ata compiletime like please pass the values to paramerterized constructor.
-            employee emp1 = new employee(121, "rama", 1000);//data assigned to parameterized constructor.
+            employee emp1 = new employee(121, "rama",1000);//data assigned to parameterized constructor.
             emp1.displayempinfo();
 
             Console.WriteLine("emp no is:" + emp1.eno);
